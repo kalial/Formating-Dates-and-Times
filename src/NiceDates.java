@@ -8,6 +8,7 @@ public class NiceDates {
         DateTimeFormatter f2 = DateTimeFormatter.ofPattern("E MMM dd, yyyy G");
         DateTimeFormatter tf1 = DateTimeFormatter.ofPattern("k:m:s A a");
 
+        // thus proving that the format() method makes objects
         LocalDate d = LocalDate.now();
         String s = d.format(f1);
 
